@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        color: #1A64D6;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 48px;
+        margin: 0;
+        padding: 0;
+    }
+     h3 {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    li{
+        text-align: center;
+        padding: 6px;
+    }
+     li:hover {
+        background: #fffbef;
+      }
+    ul {
+        list-style: none;
+        padding: 5px 10px;
+        text-align: center;
+        font-weight: 400;
+        display: block;
+    }
+    button {
+        color: #FFFFFF;
+        display: block;
+        margin: 20px auto;
+        padding: 16px 24px;
+        font-size: 16px;
+        line-height: 22px;
+        background: #1A64D6;
+        border: 1px solid #1A64D6;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+ }
+ button:hover{
+    color: #1A64D6;
+    background: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #1a64d6;
+ }
+ p {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.7;
+    font-family: monospace;
+ }
+.today{
+    color: #1A64D6;
+}
+    
+.h1-degree {
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+    <h1>
+        🌤
+    </h1>
+    <div class="today">
+        <h1>
+        Currently 21° in Tokyo
+        </div>
+        
+       <div class="h1-degree"> 13° / <strong>23°</strong> </div>
+    
+    <ul>
+<li>
+    <h3>
+       🌧Tomorrow
+    </h3>
+    <p>
+        10° /
+         <strong>
+            22°
+        </strong>
+    </p>
+</li>
+<li>
+    <h3>
+     🌥Saturday
+    </h3>
+    <p>15° / <strong>17°</strong>
+    </p>
+</li>
+<li>
+    <h3>
+     ☀️Sunday
+    </h3>
+    <p>
+    25° / <strong>28°</strong>
+    </p>
+</li>
+    </ul>
+    <button>
+        Change city
+    </button>
+<p>
+    coded by Velma Mweresa
+</p>
+</body>
+</html>
+echo "# Weatherpage" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VelmaMweresa/Weatherpage.git
+git push -u origin main
